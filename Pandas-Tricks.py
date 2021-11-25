@@ -1,8 +1,8 @@
+from os import SEEK_DATA
 import pandas as pd
 
 #Create Sample Data
 df = pd.DataFrame({'name': ['Sam', 'Mike', 'Lisa'], 'items': [24, 44, 55]})
-df.head()
 
 #Counting Number Of Values
 df['name'].value_counts()
